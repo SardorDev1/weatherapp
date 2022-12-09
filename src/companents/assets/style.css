@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+
+    border-radius: 5px;
+    background-color: #100f2296;
+margin: 30px !important;
+}
+
+.web-app{
+  width: 100%;
+    height: 100vh;
+    background-image: url('./background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.header  nav .brand h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+margin-top: 2%;
+    margin-left: 15px;
+
+}
+.header  nav .brand  {
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.header nav h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+
+
+}
+
+
+.input{
+    width: 75%;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 20px;
+    font-size:1fr;
+border: none;
+}
+
+
+.card{
+    max-width: 350px;
+    height: 250px;
+background: rgba(0, 0, 0, 0.541) !important;
+color: white;
+margin: auto;
+
+}
+
+
+@media(max-width:512px){
+    .input{
+        width: 100% !important;
+    }
+}
+.Er{
+width:100%;
+height: 100vh;
+overflow: hidden;
+
+background: #1B1B1B;
+}
+.Er .head{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10%;
+    height: 100vh;
+    background-image: url('./not_found.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+@media(max-width:700px){
+.Err .head{
+   width: 100% !important;
+
+}    
+}
+.remove{
+    position: absolute;
+    top: 5px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+    right: 10px;
+    cursor: pointer;
+}
